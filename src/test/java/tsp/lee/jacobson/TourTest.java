@@ -10,7 +10,7 @@ import org.junit.Test;
 
 public class TourTest {
 
-	ArrayList listeVilles = new ArrayList();
+	ArrayList path = new ArrayList();
 	City A = new City(0,0);
 	City B = new City(0,1);
 	City C = new City(1, 0);
@@ -26,7 +26,7 @@ public class TourTest {
 
 	@Test
 	public void getDistance_uneVille_0() {
-		listeVilles.add(B);
+		path.add(B);
 		Tour tour = new Tour(path);
 		int expected = 0;
 		int actual = tour.getDistance();
