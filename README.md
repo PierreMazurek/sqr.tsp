@@ -29,31 +29,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T | Nous pouvons tester cette méthode | 
+| getX | D | Cette méthode est un getter généré automatiquement | 
+| getY | D | Cette méthode est un getter généré automatiquement | 
+| toString | D | Cette méthode utilise deux getters générés automatiquement | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | D | On ne teste pas la méthode contains |
+| getCity  | D | Cette méthode est un getter généré automatiquement  |
+| getDistance  | T | Testable |
+| getFitness  | T | Testable |
+| setCity  | D | Méthode set pas testable |
+| tourSize  | D | Méthode size pas testable |
+| toString  | D | Méthode qui pourrait être autogénérée |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | T | Testable |
+| getTour  | D | Méthode pas testable |
+| populationSize  | D | Méthode pas testable |
+| saveTour  | D | Méthode pas testable |
 
 ## Functions to test now
 
