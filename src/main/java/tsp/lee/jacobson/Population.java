@@ -1,5 +1,10 @@
 package tsp.lee.jacobson;
 
+/**
+ * @Pierre_Mazurek
+ * Cette classe permet d'utiliser les objets Tour et City et d'initialiser l'objet Population
+ */
+
 public class Population {
 
     // Holds population of tours

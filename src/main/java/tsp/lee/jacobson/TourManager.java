@@ -2,6 +2,7 @@ package tsp.lee.jacobson;
 
 import java.util.ArrayList;
 
+
 public class TourManager {
 
     // Holds our cities

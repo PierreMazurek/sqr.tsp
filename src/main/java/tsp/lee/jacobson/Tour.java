@@ -3,6 +3,11 @@ package tsp.lee.jacobson;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/**
+ * @Pierre_Mazurek
+ * Cette classe permet de définir l'objet Tour et des méthodes qui la concerne
+ */
+
 public class Tour{
 
     // Holds our tour of cities

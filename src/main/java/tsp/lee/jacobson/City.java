@@ -1,5 +1,10 @@
 package tsp.lee.jacobson;
 
+/**
+ * @Pierre_Mazurek
+ * Cette classe sert à définir tous les attributs d'une ville
+ */
+
 public class City {
     int x;
     int y;
