@@ -10,15 +10,14 @@ import org.junit.Test;
 
 public class CityTest {
 
-	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
-
 	City A = new City(0,0);
 	City B = new City(0,2);
 	City C = new City(2,0);
 
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
 
 	@Test
 	public void distanceTo_AFromB_2() {
